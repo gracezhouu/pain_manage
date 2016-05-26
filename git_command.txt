@@ -8,3 +8,9 @@ git commit -m "add test.txt" # git comment
 git push -u origin master # git push
 
 nano .git/config  # edit git config
+
+git init # add git file in local app
+git add . # add all files to local git
+git commit -m "myapp"
+git remote add origin https://github.com/gracezhouu/first_rails.git # take place with init
+git push -u origin master # git push
