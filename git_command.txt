@@ -1,0 +1,10 @@
+git clone https://github.com/gracezhouu/pain_manage
+# download code
+
+touch test.txt # new file
+nano test.txt  # edit
+git add test.txt # add local file to git
+git commit -m "add test.txt" # git comment
+git push -u origin master # git push
+
+nano .git/config  # edit git config
